@@ -5,6 +5,11 @@ This project utilizes Streamlit to create an interactive web application.
    ```sh
    pip install streamlit
    
-2. Run the application:
+2. Install Pandas:
    ```sh
-   streamlit run .venv/main.py
+   pip install pandas
+   
+3. Run the application:
+   ```sh
+   streamlit run About.py
+

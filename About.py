@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas
 
-st.set_page_config(layout="wide")
+st.set_page_config()
 
 col1, col2 = st.columns(2)
 
@@ -41,5 +41,5 @@ with col4:
     for index, row in df[1:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        #st.image(".venv/Images/" + row["image"])
+        st.image("Images/" + row["image"])
         st.write(f"[Github repository]({row['url']})")
